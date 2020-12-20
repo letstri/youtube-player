@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Video Player</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+  <div class="player j-player">
+    <em class="fas fa-pause player__main-icon j-pause"></em>
+    <em class="fas fa-play player__main-icon j-play"></em>
+    <video
+      src="./video.mp4"
+      class="player__video"
+    ></video>
+    <div class="player__panel">
+      <div class="player__lines j-line">
+        <div class="player__hint j-hint"></div>
+        <div class="player__line player__line--current j-line-current"></div>
+        <div class="player__line player__line--ghost j-line-ghost"></div>
+        <div class="player__line player__line--full"></div>
+      </div>
+      <div class="player__panel-block">
+        <button class="player__panel-button j-toggle-video">
+          <em class="fas fa-play"></em>
+        </button>
+        <button class="player__panel-button player__panel-button--volume">
+          <em class="fa player__volume-icon j-toggle-volume"></em>
+          <input type="range" class="player__volume j-volume-input">
+        </button>
+        <span class="j-duration">0:00</span>
+      </div>
+      <div class="player__panel-block">
+        <button class="player__panel-button j-fullscreen">
+          <em class="fas fa-expand"></em>
+        </button>
+      </div>
+    </div>
+  </div>
+  <h1 style="margin-left: 20px;">HTML за 15 МИНУТ</h1>
+  <script src="./dist/app.js"></script>
+</body>
+</html>
