@@ -2,7 +2,7 @@
 
 ## Ссылка
 
-[Ссылка на видео](https://www.youtube.com/watch?v=4b2wRvLKxaE)
+[Ссылка на видео](https://www.youtube.com/watch?v=RqIlGnNh3Z8)
 
 ## Описание
 
